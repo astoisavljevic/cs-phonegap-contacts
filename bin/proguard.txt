@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class rs.in.staleksit.cs.phonegap.PhoneGapContacts { <init>(...); }
+

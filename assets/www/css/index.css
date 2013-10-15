@@ -1,0 +1,71 @@
+* { 
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header { 
+	position: fixed; 
+	z-index: 200;
+	width: 100%;
+	height: 80px;
+	top: 0;
+	left: 0;
+    background: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header .inner {
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    position: relative;
+    width: 980px;
+}
+
+/* Brand */
+header .brand {
+	position: relative;
+	z-index: 459;
+	float: left;
+	color: #fff;
+	display: inline-block;
+}
+
+.content-wrapper {
+	clear: both;
+	margin: 0 auto;
+	position: relative;	
+}
+
+#app {
+	padding-top: 60px;
+}
+
+#app h2 {
+	font-size: 1.8em;
+}
+
+.device-property-item {
+	border-top: 1px solid #DDD;
+	line-height: 3em;
+}
+
+.device-property-item-left {
+	font-style: italic;
+	float: left;
+	width: 50%;
+}
+
+.device-property-item-right {
+	float: right;
+	width: 50%;
+}
+
