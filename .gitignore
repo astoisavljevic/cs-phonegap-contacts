@@ -29,3 +29,5 @@ proguard/
 .idea/
 
 .settings/
+cordova/node_modules/.bin/
+
